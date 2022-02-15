@@ -35,3 +35,6 @@
   rowsColumnList -> основной массив данных для заполнения листа
   
  Примеры использования есть в классе: UnitExcelCore->TestStartCreateExcel
+ 
+ Основной материал был взят из данной статьи:
+ https://kbss.ru/blog/lang_c_sharp/315.html
