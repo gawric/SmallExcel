@@ -1,6 +1,8 @@
 # SmallExcel
 Маленькая библиотека создана с помощью openxml и Net Framework 4.7.2
 
+![myimage-alt-tag](https://i.ibb.co/LtQt2Nj/test1.png)
+
 Использование:
 
 # создание класса core
@@ -32,4 +34,4 @@
   headerColumnList -> первая строчка где обычно записываются имена колонок (пример: Наименование)
   rowsColumnList -> основной массив данных для заполнения листа
   
-# Примеры использования есть в классе: UnitExcelCore->TestStartCreateExcel
+ Примеры использования есть в классе: UnitExcelCore->TestStartCreateExcel
