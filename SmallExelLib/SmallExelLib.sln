@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallExelLib", "SmallExelLib\SmallExelLib.csproj", "{22207669-5656-40DA-A218-0EA3B8D94F18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestSmallExcel", "UnitTestSmallExcel\UnitTestSmallExcel.csproj", "{4864EFC6-05D5-48F8-8A8D-B4F08F77FAFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22207669-5656-40DA-A218-0EA3B8D94F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22207669-5656-40DA-A218-0EA3B8D94F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22207669-5656-40DA-A218-0EA3B8D94F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22207669-5656-40DA-A218-0EA3B8D94F18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4864EFC6-05D5-48F8-8A8D-B4F08F77FAFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4864EFC6-05D5-48F8-8A8D-B4F08F77FAFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4864EFC6-05D5-48F8-8A8D-B4F08F77FAFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4864EFC6-05D5-48F8-8A8D-B4F08F77FAFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7AF8382-693D-472F-9BF3-50C1E8D84BD2}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+C:\Users\А д м и н\source\repos\SmallExelLib\SmallExelLib\bin\Debug\SmallExelLib.dll
+C:\Users\А д м и н\source\repos\SmallExelLib\SmallExelLib\bin\Debug\SmallExelLib.pdb
+C:\Users\А д м и н\source\repos\SmallExelLib\SmallExelLib\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\А д м и н\source\repos\SmallExelLib\SmallExelLib\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\А д м и н\source\repos\SmallExelLib\SmallExelLib\obj\Debug\SmallExelLib.csproj.CoreCompileInputs.cache
+C:\Users\А д м и н\source\repos\SmallExelLib\SmallExelLib\obj\Debug\SmallExelLib.csproj.CopyComplete
+C:\Users\А д м и н\source\repos\SmallExelLib\SmallExelLib\obj\Debug\SmallExelLib.dll
+C:\Users\А д м и н\source\repos\SmallExelLib\SmallExelLib\obj\Debug\SmallExelLib.pdb
+C:\Users\А д м и н\source\repos\SmallExelLib\SmallExelLib\obj\Debug\SmallExelLib.csprojAssemblyReference.cache
