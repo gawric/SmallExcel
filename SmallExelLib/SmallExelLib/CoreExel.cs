@@ -21,7 +21,8 @@ namespace SmallExelLib
         {
            
                 DataSheet ds = new DataSheet();
-                workbookPart.Workbook = new Workbook();
+                if(workbookPart.Workbook == null) workbookPart.Workbook = new Workbook();
+
                 WorksheetPart worksheetPart = workbookPart.AddNewPart<WorksheetPart>();
 
                 FileVersion fv = new FileVersion();
@@ -53,6 +54,14 @@ namespace SmallExelLib
             SheetData sheetData2 = new SheetData();
             Worksheet workSheet2 = worksheetPart2.Worksheet = new Worksheet(sheetData2);
 
+            if(sheets == null)
+            {
+                if(workbookPart.Workbook == null)
+                {
+                    workbookPart.Workbook = new Workbook();
+                }
+                sheets = CreateSheets(workbookPart);
+            }
 
             //CreateColumn
             ds.AddColumn(worksheetPart2, dmh.columnList);
@@ -69,7 +78,8 @@ namespace SmallExelLib
 
         private Sheets CreateSheets(WorkbookPart workbookPart)
         {
-            return workbookPart.Workbook.AppendChild(new Sheets());
+            if(sheets == null) return workbookPart.Workbook.AppendChild(new Sheets());
+            return sheets;
         }
         public SpreadsheetDocument GetDocument(string path)
         {

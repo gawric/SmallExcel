@@ -24,7 +24,7 @@ namespace UnitTestSmallExcel
             coreExel.setStyleDocument(StatVariable.GenerateStyleSheet());
             coreExel.CreateRootSheet(1, GetDMS(), workbookPart, "Стены");
             coreExel.AddNextSheet(2, GetDMSOther(), workbookPart, "Перекрытия");
-
+            
 
             coreExel.SaveWorkBookPart(workbookPart);
             coreExel.CloseDocument(document);
@@ -100,27 +100,27 @@ namespace UnitTestSmallExcel
             List<ModelRows> list1 = new List<ModelRows>();
             list1.Add(new ModelRows( 1, indexRows++.ToString(), CellValues.Number, 2));
             list1.Add(new ModelRows( 2, "8.2.4", CellValues.String, 2));
-            list1.Add(new ModelRows( 3, "ПлитаЖбB25F100Монолитная180Перев", CellValues.String, 2));
+            list1.Add(new ModelRows( 3, "test1", CellValues.String, 2));
             list1.Add(new ModelRows( 4, "Этаж 12_+34,560 ", CellValues.String, 2));
             list1.Add(new ModelRows( 5, "0", CellValues.String, 2));
             list1.Add(new ModelRows( 6, "180", CellValues.String, 2));
             list1.Add(new ModelRows( 7, "366,7329037", CellValues.String, 2));
             list1.Add(new ModelRows( 8, "1", CellValues.String, 2));
             list1.Add(new ModelRows( 9, "216.5745494", CellValues.String, 2));
-            list1.Add(new ModelRows( 10, "БСТВ25F100ГОСТ74732010", CellValues.String, 2));
+            list1.Add(new ModelRows( 10, "test4", CellValues.String, 2));
 
 
             List<ModelRows> list2 = new List<ModelRows>();
             list2.Add(new ModelRows( 1, indexRows++.ToString(), CellValues.Number, 2));
             list2.Add(new ModelRows( 2, "8.2.4", CellValues.String, 2));
-            list2.Add(new ModelRows( 3, "ПлитыТермовлкадыши200мм", CellValues.String, 2));
+            list2.Add(new ModelRows( 3, "test2", CellValues.String, 2));
             list2.Add(new ModelRows( 4, "Этаж 12_+34,500", CellValues.String, 2));
             list2.Add(new ModelRows( 5, "0", CellValues.String, 2));
             list2.Add(new ModelRows( 6, "200", CellValues.String, 2));
             list2.Add(new ModelRows( 7, "23,03476912", CellValues.String, 2));
             list2.Add(new ModelRows( 8, "1", CellValues.String, 2));
             list2.Add(new ModelRows( 9, "2721,018997", CellValues.String, 2));
-            list2.Add(new ModelRows( 10, "ПенополстиролППС35ФРАГО", CellValues.String, 2));
+            list2.Add(new ModelRows( 10, "test3", CellValues.String, 2));
 
             container.Add(list1);
             container.Add(list2);
