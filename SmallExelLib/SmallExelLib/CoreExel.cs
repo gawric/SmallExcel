@@ -54,7 +54,9 @@ namespace SmallExelLib
             SheetData sheetData2 = new SheetData();
             Worksheet workSheet2 = worksheetPart2.Worksheet = new Worksheet(sheetData2);
 
-            if(sheets == null)
+            AddStyleToSheets(workbookPart);
+
+            if (sheets == null)
             {
                 if(workbookPart.Workbook == null)
                 {

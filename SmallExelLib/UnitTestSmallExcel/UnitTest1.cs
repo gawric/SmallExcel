@@ -81,12 +81,12 @@ namespace UnitTestSmallExcel
         private List<ModelHeaderColumn> GetHeaderColumnListOtherSheet()
         {
             List<ModelHeaderColumn> list = new List<ModelHeaderColumn>();
-            list.Add(new ModelHeaderColumn(1, 1, "Новый 12", CellValues.String, 5));
-            list.Add(new ModelHeaderColumn(1, 2, "Новый 23", CellValues.String, 5));
-            list.Add(new ModelHeaderColumn(1, 3, "Новый 34", CellValues.String, 5));
-            list.Add(new ModelHeaderColumn(1, 4, "Новый 4", CellValues.String, 5));
-            list.Add(new ModelHeaderColumn(1, 5, "Новый 5", CellValues.String, 5));
-            list.Add(new ModelHeaderColumn(1, 6, "Новый 6", CellValues.String, 5));
+            list.Add(new ModelHeaderColumn(1, 1, "Новый 12", CellValues.String, 1));
+            list.Add(new ModelHeaderColumn(1, 2, "Новый 23", CellValues.String, 1));
+            list.Add(new ModelHeaderColumn(1, 3, "Новый 34", CellValues.String, 1));
+            list.Add(new ModelHeaderColumn(1, 4, "Новый 4", CellValues.String, 1));
+            list.Add(new ModelHeaderColumn(1, 5, "Новый 5", CellValues.String, 1));
+            list.Add(new ModelHeaderColumn(1, 6, "Новый 6", CellValues.String, 1));
             list.Add(new ModelHeaderColumn(1, 7, "Новый 7", CellValues.String, 5));
 
             return list;

@@ -6,4 +6,3 @@ C:\Users\А д м и н\source\repos\SmallExelLib\SmallExelLib\obj\Debug\SmallEx
 C:\Users\А д м и н\source\repos\SmallExelLib\SmallExelLib\obj\Debug\SmallExelLib.csproj.CopyComplete
 C:\Users\А д м и н\source\repos\SmallExelLib\SmallExelLib\obj\Debug\SmallExelLib.dll
 C:\Users\А д м и н\source\repos\SmallExelLib\SmallExelLib\obj\Debug\SmallExelLib.pdb
-C:\Users\А д м и н\source\repos\SmallExelLib\SmallExelLib\obj\Debug\SmallExelLib.csprojAssemblyReference.cache
