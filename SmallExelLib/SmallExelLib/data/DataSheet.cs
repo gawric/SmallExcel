@@ -42,7 +42,7 @@ namespace SmallExelLib.data
 
             foreach (ModelHeaderColumn headeritem in listMHC)
             {
-                InsertCell(row, headeritem.cell_num, headeritem.val, headeritem.type, headeritem.styleIndex);
+                InsertCell(row, headeritem.height , headeritem.cell_num, headeritem.val, headeritem.type, headeritem.styleIndex);
             }
 
 
@@ -63,7 +63,7 @@ namespace SmallExelLib.data
 
                 foreach (ModelRows item in listMHC)
                 {
-                    InsertCell(row, item.cell_num, item.val, item.type, item.styleIndex);
+                    InsertCell(row, item.height, item.cell_num, item.val, item.type, item.styleIndex);
                 }
             }
             
@@ -72,8 +72,9 @@ namespace SmallExelLib.data
 
 
         //Добавление Ячейки в строку (На вход подаем: строку, номер колонки, тип значения, стиль)
-        public void InsertCell(Row row, int cell_num, string val, CellValues type, uint styleIndex)
+        public void InsertCell(Row row, DoubleValue height ,  int cell_num, string val, CellValues type, uint styleIndex)
         {
+            row.Height = height;
             Cell refCell = null;
             Cell newCell = new Cell() { CellReference = cell_num.ToString() + ":" + row.RowIndex.ToString(), StyleIndex = styleIndex };
             row.InsertBefore(newCell, refCell);
@@ -81,7 +82,7 @@ namespace SmallExelLib.data
             // Устанавливает тип значения.
             newCell.CellValue = new CellValue(val);
             newCell.DataType = new EnumValue<CellValues>(type);
-
+         
         }
 
         //Важный метод, при вставки текстовых значений надо использовать.

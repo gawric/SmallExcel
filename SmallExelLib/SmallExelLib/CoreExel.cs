@@ -99,12 +99,16 @@ namespace SmallExelLib
         }
         private void AddStyleToSheets(WorkbookPart workbookPart)
         {
-            if (styledocument != null)
+            if(workbookPart.WorkbookStylesPart == null)
             {
-                WorkbookStylesPart wbsp = workbookPart.AddNewPart<WorkbookStylesPart>();
-                wbsp.Stylesheet = styledocument;
-                wbsp.Stylesheet.Save();
+                if (styledocument != null)
+                {
+                    WorkbookStylesPart wbsp = workbookPart.AddNewPart<WorkbookStylesPart>();
+                    wbsp.Stylesheet = styledocument;
+                    wbsp.Stylesheet.Save();
+                }
             }
+            
         }
         public void setStyleDocument(Stylesheet style)
         {

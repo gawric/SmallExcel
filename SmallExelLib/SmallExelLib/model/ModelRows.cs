@@ -10,17 +10,17 @@ namespace SmallExelLib.model
 {
     public class ModelRows
     {
-        public ModelRows(int cell_num, string val, CellValues type, uint styleIndex)
+        public ModelRows(DoubleValue height , int cell_num, string val, CellValues type, uint styleIndex)
         {
-           // this.RowIndex = RowIndex;
+            this.height = height;
             this.cell_num = cell_num;
             this.val = val;
             this.type = type;
             this.styleIndex = styleIndex;
         }
 
-   
 
+        public DoubleValue height { get; set; }
         public int cell_num { get; set; }
         public string val { get; set; }
         public CellValues type { get; set; }
